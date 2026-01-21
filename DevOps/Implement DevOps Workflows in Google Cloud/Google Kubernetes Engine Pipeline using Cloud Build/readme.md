@@ -433,23 +433,19 @@ After a few minutes, reload the application in your browser. You should now see 
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="./Misc/image-9.png" alt="trigger" width="750" />
+        <img src="./Misc/image-9.png" alt="trigger" width="450" />
         </div>
       </div>
+
+&nbsp;
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="./Misc/image-10.png" alt="trigger" width="750" />
+        <img src="./Misc/image-10.png" alt="trigger" width="450" />
         </div>
       </div>
 
 
-
-<div style="display: flex; justify-content: center;">
-      <div style="margin: 0 10px;">
-        <img src="./Misc/image-12.png" alt="trigger" width="450" />
-        </div>
-      </div>
 
 
 ## Task 9. Test the rollback
@@ -464,7 +460,7 @@ In this task, you rollback to the version of the application that said "Hello Wo
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="../Misc/image-12.png" alt="trigger" width="450" />
+        <img src="./Misc/image-12.png" alt="trigger" width="450" />
         </div>
       </div>
 
