@@ -9,7 +9,7 @@ In this lab, you create a continuous integration and continuous deployment (CI/C
 
 <div style="display: flex; justify-content: center;">
   <div style="margin: 0 10px;">
-    <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-1.png" alt="Obj" width="250" />
+    <img src="/Misc/image-1.png" alt="Obj" width="250" />
   </div>
 </div>
 
@@ -18,7 +18,7 @@ Once the lab is completed, the whole picture will look like the following:
 
 <div style="display: flex; justify-content: center;">
   <div style="margin: 0 10px;">
-    <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image.png" alt="Final-result" width="250" />
+    <img src="/Misc/image.png" alt="Final-result" width="250" />
   </div>
 </div>
 
@@ -126,7 +126,7 @@ Configure Cloud Build to automatically run a small unit test, build the containe
 
 <div style="display: flex; justify-content: center;">
   <div style="margin: 0 10px;">
-    <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-2.png" alt="CI-1" width="250" />
+    <img src="/Misc/image-2.png" alt="CI-1" width="250" />
   </div>
 </div>
 
@@ -138,7 +138,7 @@ The cloudbuild.yaml file, already included in the code, is the pipeline's config
   - Click **Create Trigger**.
     - <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-3.png" alt="trigger" width="250" />
+        <img src="/Misc/image-3.png" alt="trigger" width="250" />
         </div>
       </div>
 
@@ -194,14 +194,14 @@ Check the build running on the Dashboard. You can now proceed to examine the log
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-4.png" alt="trigger" width="250" />
+        <img src="/Misc/image-4.png" alt="trigger" width="250" />
         </div>
       </div>
 
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-5.png" alt="trigger" width="250" />
+        <img src="/Misc/image-5.png" alt="trigger" width="250" />
         </div>
       </div>
 
@@ -223,7 +223,7 @@ In the Cloud Shell action bar, click More (More icon) and then Download > Toggle
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-6.png" alt="trigger" width="250" />
+        <img src="/Misc/image-6.png" alt="trigger" width="250" />
         </div>
       </div>
 
@@ -388,7 +388,7 @@ git push google master
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-7.png" alt="trigger" width="250" />
+        <img src="/Misc/image-7.png" alt="trigger" width="250" />
         </div>
       </div>
 
@@ -433,13 +433,13 @@ After a few minutes, reload the application in your browser. You should now see 
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-9.png" alt="trigger" width="250" />
+        <img src="/Misc/image-9.png" alt="trigger" width="250" />
         </div>
       </div>
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-10.png" alt="trigger" width="250" />
+        <img src="/Misc/image-10.png" alt="trigger" width="250" />
         </div>
       </div>
 
@@ -447,7 +447,7 @@ After a few minutes, reload the application in your browser. You should now see 
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-12.png" alt="trigger" width="250" />
+        <img src="/Misc/image-12.png" alt="trigger" width="250" />
         </div>
       </div>
 
@@ -464,7 +464,7 @@ In this task, you rollback to the version of the application that said "Hello Wo
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="/Google_skills/DevOps/Implement DevOps Workflows in Google Cloud/Google Kubernetes Engine Pipeline using Cloud Build/Misc/image-11.png" alt="trigger" width="250" />
+        <img src="/Misc/image-11.png" alt="trigger" width="250" />
         </div>
       </div>
 
