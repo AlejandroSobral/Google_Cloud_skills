@@ -460,7 +460,7 @@ In this task, you rollback to the version of the application that said "Hello Wo
 
 <div style="display: flex; justify-content: center;">
       <div style="margin: 0 10px;">
-        <img src="./Misc/image-12.png" alt="trigger" width="450" />
+        <img src="./Misc/image-9.png" alt="trigger" width="450" />
         </div>
       </div>
 
