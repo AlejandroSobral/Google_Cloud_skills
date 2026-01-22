@@ -11,7 +11,7 @@ https://github.com/techgalary/qwiklabs/blob/main/gcp-challenge-labs/Implement_De
 
 As a recent hire as a DevOps Engineer for Cymbal Superstore a few months ago, you have learned the ins and outs of how the company operates its e-commerce website. Specifically, the DevOps team is working on a large scale CI/CD pipeline that they would like your assistance with building. This allows the company to help developers automate tasks, collaborate more effectively with other teams, and release software more frequently and reliably. Your experience with GitHub, Artifact Registry, Docker, and Cloud Build is going to be a large help since Cymbal Superstore would like to use all native Google Cloud Services for their pipeline.
 
-Challenge tasks:
+*Challenge tasks:*
 
 - Creating a GKE cluster based on a set of configurations provided.
 - Creating a GitHub Repository to host your Go application code.
