@@ -26,6 +26,8 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 [Course Link](https://www.skills.google/course_templates/716?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=67179019)
 
+[Badge](https://www.credly.com/badges/98442d43-b2ad-4fa6-b7de-63847503ab41/public_url)
+
 ### Google Kubernetes Engine Pipeline using Cloud Build
 
 [My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/DevOps/Implement%20DevOps%20Workflows%20in%20Google%20Cloud/readme.md)
