@@ -13,7 +13,6 @@ As a recent hire as a DevOps Engineer for Cymbal Superstore a few months ago, yo
 
 Challenge tasks:
 
-
 - Creating a GKE cluster based on a set of configurations provided.
 - Creating a GitHub Repository to host your Go application code.
 - Creating Cloud Build Triggers that deploy a production and development application.
