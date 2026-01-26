@@ -31,7 +31,7 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 [My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/DevOps/Implement%20DevOps%20Workflows%20in%20Google%20Cloud/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/readme.md)
 
-### Build Infrastructure with Terraform on Google Cloud
+## [Challenge Lab] Build Infrastructure with Terraform on Google Cloud
 
 [Link](https://www.skills.google/course_templates/636?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=69447657)
 
