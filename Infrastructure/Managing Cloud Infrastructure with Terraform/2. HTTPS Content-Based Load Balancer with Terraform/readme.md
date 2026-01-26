@@ -30,3 +30,40 @@ The final output will be:
     <img src="./Misc/final-output.png" alt="CI-1" width="750" />
   </div>
 </div>
+
+-------------------------------------
+
+#### *.tf break down and explanations:
+
+
+This configuration builds a Global High-Availability Web Architecture.
+
+It sets up a Global HTTP(S) Load Balancer that routes traffic to three different regions and a static storage bucket.
+
+
+- 1. The Network Layout (Multi-Regional) 
+    - The code creates a single VPC (google_compute_network) but splits it into three distinct subnets across different regions:
+      - Group 1, 2, and 3: Each has its own google_compute_subnetwork, google_compute_router, and cloud-nat-group module.
+      - Why Cloud NAT? The resources in these subnets likely have private IPs. Cloud NAT allows these private instances to reach the internet (to download updates or packages) without having their own public IP addresses.
+  
+- 2. Global HTTP(S) Load Balancer (gce-lb-https)
+    - This is the "brain" of the setup. It uses a high-level Google module to manage several components at once:
+      - Target Tags: It applies firewall rules to the instances in your Managed Instance Groups (MIGs).
+      - Security: It includes ssl = true and references a self-signed certificate, meaning it's configured to handle encrypted HTTPS traffic.
+      - Backends: It defines four distinct "backend services":
+        - default: A pool containing all three MIGs.
+        - mig1, mig2, mig3: Specific pools for each individual region.
+- 3. URL Mapping (Path-Based Routing)
+    - The google_compute_url_map acts like a traffic cop. It looks at the URL the user typed and decides where to send the request:
+      - URL Path	Destination (Backend)
+        example.com/group1/*	Instances in Region 1
+        example.com/group2/*	Instances in Region 2
+        example.com/group3/*	Instances in Region 3
+        example.com/assets/*	Cloud Storage Bucket (Static files)
+        Anything else	Default pool (Any available region)
+- 4. Static Content Delivery (The Bucket)
+    - This section handles your static files (images, CSS, JS):
+      - google_storage_bucket: A physical storage container in the US.
+      - google_compute_backend_bucket: This connects the bucket to the Load Balancer. It has enable_cdn = true, which means Google will cache your gcp-logo.svg at "edge" locations closer to your users for faster loading.
+      - google_storage_object_acl: Sets the file to publicRead so the whole world can see the logo.
+
