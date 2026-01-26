@@ -33,7 +33,7 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 
 
-### [Course] Managing Cloud Infrastructure with Terraform
+## [Course] Managing Cloud Infrastructure with Terraform
 
 [Link](https://www.skills.google/course_templates/746)
 
