@@ -45,6 +45,8 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 [Link](https://www.skills.google/course_templates/746/labs/557771)
 
+[My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/Infrastructure/Managing%20Cloud%20Infrastructure%20with%20Terraform/2.%20HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/readme.md)
+
 ### [Lab] Google Kubernetes Engine Pipeline using Cloud Build
 
 [My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/DevOps/Implement%20DevOps%20Workflows%20in%20Google%20Cloud/readme.md)
