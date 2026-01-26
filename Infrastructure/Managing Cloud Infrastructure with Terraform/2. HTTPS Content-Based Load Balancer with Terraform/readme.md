@@ -16,3 +16,17 @@ In this lab, you create an HTTPS load balancer to forward traffic to a custom UR
 </div>
 
 &nbsp;
+
+Follow the instructions on the following repo:
+
+[Github Resource](https://github.com/terraform-google-modules/terraform-google-lb-http/tree/main/examples/multi-backend-multi-mig-bucket-https-lb)
+
+
+The final output will be:
+
+
+<div style="display: flex; justify-content: center;">
+  <div style="margin: 0 10px;">
+    <img src="./Misc/final-output.png" alt="CI-1" width="750" />
+  </div>
+</div>
