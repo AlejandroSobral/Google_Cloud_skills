@@ -32,3 +32,42 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 [My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/DevOps/Implement%20DevOps%20Workflows%20in%20Google%20Cloud/readme.md)
 
+
+### Managing Cloud Infrastructure with Terraform
+
+[Link](https://www.skills.google/course_templates/746?catalog_rank=%7B%22rank%22%3A8%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=69447657)
+
+### Build Infrastructure with Terraform on Google Cloud
+
+[Link](https://www.skills.google/course_templates/636?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=69447657)
+
+### Implement CI/CD Pipelines on Google Cloud
+
+[Link](https://www.skills.google/course_templates/691?catalog_rank=%7B%22rank%22%3A70%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
+
+### Secure Software Delivery
+
+[Link](https://www.skills.google/course_templates/1164?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=69448296)
+
+### Monitoring in Google Cloud
+
+[Link](https://www.skills.google/course_templates/747?catalog_rank=%7B%22rank%22%3A16%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
+
+
+### Monitor Environments with Google Cloud Managed Service for Prometheus
+
+[Link](https://www.skills.google/course_templates/761?catalog_rank=%7B%22rank%22%3A9%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
+
+
+### Optimize Costs for Google Kubernetes Engine
+
+[Link](https://www.skills.google/course_templates/655?catalog_rank=%7B%22rank%22%3A46%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
+
+### Cloud Architecture: Design, Implement, and Manage
+
+[Link](https://www.skills.google/course_templates/640?catalog_rank=%7B%22rank%22%3A56%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
+
+### Build Google Cloud Infrastructure for AWS Professionals
+
+[Link](https://www.skills.google/course_templates/687?catalog_rank=%7B%22rank%22%3A68%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
+
