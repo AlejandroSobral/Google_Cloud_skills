@@ -1,3 +1,6 @@
+#############################################
+# Kubernetes Provider & Authentication
+
 provider "kubernetes" {
   version = "~> 1.10.0"
   host    = google_container_cluster.default.endpoint
@@ -11,17 +14,26 @@ provider "kubernetes" {
   )
 }
 
+#############################################
+# Google Kubernetes Engine (The Platform)
+
 resource "kubernetes_namespace" "staging" {
   metadata {
     name = "staging"
   }
 }
 
+#############################################
+# Networking (The Foundation)
 resource "google_compute_address" "default" {
   name   = var.network_name
   region = var.region
 }
+#############################################
 
+
+#############################################
+# Google Kubernetes Engine (The Platform)
 resource "kubernetes_service" "nginx" {
   metadata {
     namespace = kubernetes_namespace.staging.metadata[0].name
@@ -46,6 +58,7 @@ resource "kubernetes_service" "nginx" {
   }
 }
 
+## It would be better to use a Deployment resource here, but this is simpler for demo purposes.
 resource "kubernetes_replication_controller" "nginx" {
   metadata {
     name      = "nginx"
@@ -90,6 +103,9 @@ resource "kubernetes_replication_controller" "nginx" {
     }
   }
 }
+
+#############################################
+#############################################
 
 output "load-balancer-ip" {
   value = google_compute_address.default.address

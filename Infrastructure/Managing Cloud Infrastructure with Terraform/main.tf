@@ -1,3 +1,5 @@
+#############################################
+# Variables & Provider Configuration
 variable "region" {
   type        = string
   description = "Region for the resource."
@@ -16,6 +18,8 @@ provider "google" {
   region = var.region
 }
 
+#############################################
+# Networking (The Foundation)
 resource "google_compute_network" "default" {
   name                    = var.network_name
   auto_create_subnetworks = false
@@ -36,6 +40,8 @@ data "google_container_engine_versions" "default" {
   location = var.location
 }
 
+#############################################
+# Google Kubernetes Engine (The Platform)
 resource "google_container_cluster" "default" {
   name               = var.network_name
   location           = var.location
@@ -54,6 +60,11 @@ resource "google_container_cluster" "default" {
     command = "sleep 90"
   }
 }
+
+
+
+##########################################################################################
+##########################################################################################
 
 output "network" {
   value = google_compute_subnetwork.default.network
