@@ -35,9 +35,11 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 [Link](https://www.skills.google/course_templates/636?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=69447657)
 
+[Badge](https://www.credly.com/badges/d9d08540-6050-4f9e-8195-427d6623738b/public_url)
+
 [My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/Infrastructure/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud/5.%20Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud%20Challenge%20Lab/readme.md)
 
-[Badge](https://www.credly.com/badges/d9d08540-6050-4f9e-8195-427d6623738b/public_url)
+
 
 &nbsp;
 &nbsp;
