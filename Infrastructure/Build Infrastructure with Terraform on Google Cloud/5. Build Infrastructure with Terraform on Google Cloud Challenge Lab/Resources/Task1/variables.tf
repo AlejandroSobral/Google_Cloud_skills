@@ -1,20 +1,14 @@
 variable "project_id" {
   description = "The project ID to host the network in"
-  default     = "qwiklabs-gcp-01-131cb5c3a84b"
+  default     = "qwiklabs-gcp-01-5894de24b860"
 }
 
 variable "region" {
   description = "The assigned region"
-  default     = "europe-west1"
+  default     = "us-west4"
 }
 
 variable "zone" {
   description = "The assigned zone"
-  default     = "europe-west1-c"
+  default     = "us-west4-b"
 }
-
-variable "provider_version" {
-    description = "The version of the Google provider"
-    default     = "3.5.0"
-}
-

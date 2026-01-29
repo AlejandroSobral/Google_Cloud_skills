@@ -40,6 +40,9 @@ This repository serves as a technical log of my journey through the Google Cloud
 [My readme](https://github.com/AlejandroSobral/Google_Cloud_skills/blob/main/Infrastructure/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud/5.%20Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud%20Challenge%20Lab/readme.md)
 
 
+### [Challenge Lab] Build Google Cloud Infrastructure for AWS Professionals
+
+[Link](https://www.skills.google/course_templates/687?catalog_rank=%7B%22rank%22%3A68%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
 
 &nbsp;
 &nbsp;
@@ -82,8 +85,6 @@ This repository serves as a technical log of my journey through the Google Cloud
 
 [Link](https://www.skills.google/course_templates/640?catalog_rank=%7B%22rank%22%3A56%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
 
-### Build Google Cloud Infrastructure for AWS Professionals
 
-[Link](https://www.skills.google/course_templates/687?catalog_rank=%7B%22rank%22%3A68%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D)
 
 </details>

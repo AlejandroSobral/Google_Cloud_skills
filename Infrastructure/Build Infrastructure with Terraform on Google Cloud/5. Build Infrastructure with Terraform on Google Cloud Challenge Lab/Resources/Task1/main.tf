@@ -1,3 +1,4 @@
+## General Terraform settings
 terraform {
   required_providers {
     google = {
@@ -7,13 +8,9 @@ terraform {
   }
 }
 
+## Auth to the project
 provider "google" {
   project     = var.project_id
   region      = var.region
   zone        = var.zone
-}
-
-
-module "instances" {
-  source     = "./modules/instances"
 }
