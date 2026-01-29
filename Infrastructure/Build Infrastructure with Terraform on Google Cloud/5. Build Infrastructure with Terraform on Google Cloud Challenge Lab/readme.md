@@ -80,10 +80,10 @@ Copy the ID of both instances and have it handy. Or get it from the CLI:
 export ZONE=us-west4-b
 
 gcloud compute instances describe tf-instance-1     --zone=$ZONE     --format='get(id)'
-4719813987852022754
+4308089218742536527
 
 $ gcloud compute instances describe tf-instance-2     --zone=$ZONE     --format='get(id)'
-4514524412348134370
+4458786603113302351
 ```
 
 
